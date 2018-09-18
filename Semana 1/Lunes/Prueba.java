@@ -22,7 +22,25 @@ public class Prueba{
       Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
       Sanborns.setEmpleado(pedro);
 
+      Producto papas = new Producto(10,"Sabritas");
+      Liverpool.setProducto(papas);
+      Producto refresco = new Producto(12,"Pepsi");
+      Liverpool.setProducto(refresco);
+      Producto pan = new Producto(10,"Bimbo");
+      Liverpool.setProducto(pan);
+      Producto panDulce = new Producto(8,"Negrito");
+      Liverpool.setProducto(panDulce);
+      Empleado martin = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Liverpool.setEmpleado(martin);
+      Empleado juan = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Liverpool.setEmpleado(juan);
+      Empleado jorge = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Liverpool.setEmpleado(jorge);
+      Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Liverpool.setEmpleado(pedro);
+
       
+
 
     }
 }
