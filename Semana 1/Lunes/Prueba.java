@@ -39,7 +39,23 @@ public class Prueba{
       Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
       Liverpool.setEmpleado(pedro);
 
-      
+      Producto papas = new Producto(10,"Sabritas");
+      Sara.setProducto(papas);
+      Producto refresco = new Producto(12,"Pepsi");
+      Sara.setProducto(refresco);
+      Producto pan = new Producto(10,"Bimbo");
+      Sara.setProducto(pan);
+      Producto panDulce = new Producto(8,"Negrito");
+      Sara.setProducto(panDulce);
+      Empleado martin = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Sara.setEmpleado(martin);
+      Empleado juan = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Sara.setEmpleado(juan);
+      Empleado jorge = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Sara.setEmpleado(jorge);
+      Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
+      Sara.setEmpleado(pedro);
+
 
 
     }
