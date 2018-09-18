@@ -56,7 +56,21 @@ public class Prueba{
       Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
       Sara.setEmpleado(pedro);
 
-
-
+      Producto papas = new Producto(10,"Sabritas");
+      RadioShak.setProducto(papas);
+      Producto refresco = new Producto(12,"Pepsi");
+      RadioShak.setProducto(refresco);
+      Producto pan = new Producto(10,"Bimbo");
+      RadioShak.setProducto(pan);
+      Producto panDulce = new Producto(8,"Negrito");
+      RadioShak.setProducto(panDulce);
+      Empleado martin = new Empleado(5000,"Martin Rodriguez","Cajero");
+      RadioShak.setEmpleado(martin);
+      Empleado juan = new Empleado(5000,"Martin Rodriguez","Cajero");
+      RadioShak.setEmpleado(juan);
+      Empleado jorge = new Empleado(5000,"Martin Rodriguez","Cajero");
+      RadioShak.setEmpleado(jorge);
+      Empleado pedro = new Empleado(5000,"Martin Rodriguez","Cajero");
+      RadioShak.setEmpleado(pedro);
     }
 }
