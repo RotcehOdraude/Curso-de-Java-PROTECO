@@ -3,6 +3,7 @@ public class Producto{
   private String nombrePropio;
 
   public Producto(int precio,String nombrePropio){
-    
+    this.precio = precio;
+    this.nombrePropio = nombrePropio;
   }
 }
