@@ -4,26 +4,6 @@ import java.util.ArrayList;
 public class Matriz{
 
 
-	Scanner teclado = new Scanner(System.in);
-	public void cMatriz(int orden){
-		int i,j;
-		}
-	}
-
-	public void PeMatriz1(int orden){
-				matriz_a.get(i).add(this.teclado.nextDouble());
-			}
-		}
-	}
-
-	public void PeMatriz2(int orden){
-				System.out.println("Ingrese el elmento" + "[" + (i+1) + "]" + "[" + (j+1) + "]");
-				matriz_b.get(i).add(this.teclado.nextDouble());
-				matriz_r.get(i).add(0.0);
-			}
-		}
-	}
-
 	public void pMatriz(int orden){
 		int i,j;
 		System.out.println("\nSus matrices son\n***Matriz 1***\n");
@@ -78,7 +58,7 @@ public class Matriz{
 		int i,j;
 		System.out.println("\nMatriz Transpuesta");
 				System.out.print(matriz_r.get(i).get(j) + "\t");
-		
+
 	}
 
 
