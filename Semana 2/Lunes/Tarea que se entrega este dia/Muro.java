@@ -15,4 +15,14 @@ public class Muro{
   public void setCuboNegro(int posX,int posY){
     misCubos.add(new CuboNegro(posX,posY));
   }
+  public String toString(){
+    StringBuilder variable = new StringBuilder();
+    int i = 1;
+    for (CuboNegro cuboN : misCubos ) {
+      variable.append("\tCubo " + i + "\n" + cuboN.toString() + "\n");
+      i++;
+    }
+    return variable.toString();
+  }
+
 }
