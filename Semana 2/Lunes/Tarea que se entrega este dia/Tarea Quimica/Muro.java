@@ -1,28 +1,24 @@
 import java.util.ArrayList;
-//import java.util.List;
-
 public class Muro{
-  //Atributos
-  ArrayList<CuboNegro> misCubos = new ArrayList<CuboNegro>();
-  //Métodos
-  public Muro(ArrayList<String> arreglo){
-    int i = 0;
-    for (String numero : arreglo) {
-      setCuboNegro(i,Integer.parseInt(numero));
-      i++;
+//------------------- Atributos -------------------------------
+  ArrayList<Columna> columnas = new ArrayList<Columna>();
+  ArrayList<Integer> arregloInt = new ArrayList<Integer>();
+//-------------------- Métodos --------------------------------
+  public Muro(ArrayList<Integer> arreglo){
+    this.arregloInt = arreglo;
+    int posicion = 0;
+    for(int numeroDeCubosNegros : arreglo){
+      columnas.add(posicion,new Columna(posicion,numeroDeCubosNegros));
+      posicion++;
     }
   }
-  public void setCuboNegro(int posX,int posY){
-    misCubos.add(new CuboNegro(posX,posY));
+
+  public void llenarConAgua(){
+    
   }
+
   public String toString(){
-    StringBuilder variable = new StringBuilder();
-    int i = 1;
-    for (CuboNegro cuboN : misCubos ) {
-      variable.append("\tCubo " + i + "\n" + cuboN.toString() + "\n");
-      i++;
-    }
-    return variable.toString();
+    return "Hola :D";
   }
 
 }

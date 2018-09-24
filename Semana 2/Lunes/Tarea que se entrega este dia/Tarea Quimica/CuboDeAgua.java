@@ -1,4 +1,4 @@
-public class CuboDeAgua{
+public class CuboDeAgua implements Cubo{
   //Atributos
   public int posX;
   public int posY;
